@@ -98,7 +98,7 @@ nav {
 
 .nav-brand a:hover {
   color: rgba(246, 185, 59,1.0);
-  transition: all 0.5s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .ul-links {
@@ -164,7 +164,7 @@ nav {
   line-height: 2rem;
   text-align: justify;
   margin-top: 6rem;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 
 nav > *, .main-message >* {
@@ -179,8 +179,9 @@ nav > *, .main-message >* {
   border-radius: 20px;
   margin-top: 2rem;
   display: inline-block;
-  text-transform: uppercase;
   font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1.2px;
 }
 
 .btn:hover {
@@ -267,10 +268,6 @@ ion-icon {
 
 .grid-item:nth-child(odd):hover {
   border-bottom: 14px solid rgba(250, 211, 144,1.0);
-}
-
-.grid-item:nth-child(even):hover {
-  border-bottom: 14px solid #0a3d62;
 }
 
 .grid-item h1 {
@@ -375,13 +372,13 @@ input, textarea {
 }
 
 .footer h3 {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   color: #fad390;
   margin-bottom: 0;
 }
 
 .footer p {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: #fad390;
 }
 
@@ -500,7 +497,7 @@ iframe {
   }
 
   .main-message p {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     margin-top: 3.5rem;
   }
 
@@ -599,10 +596,9 @@ iframe {
   .ul-links {
     position: absolute;
     right: 0;
-    height: 90vh;
-    top: 10vh;
+    top: 8vh;
     display: flex;
-    background-color: rgba(10, 61, 98, 0.9);
+    background-color: #fff;
     align-items: center;
     flex-direction: column;
     width: 50%;
@@ -612,7 +608,7 @@ iframe {
 
 
   .ul-links a {
-    color: rgba(250, 211, 144,1.0);
+    color: rgba(10, 61, 98, 1);
   }
 
   a.nav-link {
@@ -646,4 +642,13 @@ iframe {
   .services-grid {
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   }
+
+  .grid-item:nth-child(even) {
+    border-bottom: 14px solid #0a3d62;
+  }
+
+  .grid-item:nth-child(odd) {
+    border-bottom: 14px solid rgba(250, 211, 144,1.0);
+  }
+
 }
