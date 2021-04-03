@@ -577,7 +577,7 @@ input, textarea {
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1900px) {
   .main-message {
     width: 100%;
     max-width: 80rem;
