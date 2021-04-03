@@ -65,15 +65,15 @@ header {
 }
 
 .toggle-btn {
-    display: none;
+  display: none;
 }
 
 .toggle-btn div {
-    width: 25px;
-    height: 3px;
-    background-color: rgba(250, 211, 144,1.0);
-    margin: 5px;
-    transition: all 0.3s ease;
+  width: 25px;
+  height: 3px;
+  background-color: rgba(250, 211, 144,1.0);
+  margin: 5px;
+  transition: all 0.3s ease;
 }
 
 nav {
@@ -88,9 +88,16 @@ nav {
   animation: 1s ease-out 0s 1 slideInFromTop;
 }
 
-.nav-brand {
-  width: 2rem;
+#brand {
+  color: rgba(246, 185, 59,1.0);
 }
+
+#brand:hover {
+  color: rgba(250, 211, 144,1.0);
+  transition: all 0.3s ease;
+}
+
+
 
 .nav-brand a {
   color: rgba(250, 211, 144,1.0);
@@ -103,8 +110,9 @@ nav {
 
 .ul-links {
   display: flex;
-    justify-content: space-between;
+  justify-content: space-between;
 }
+
 .ul-links {
   margin: 0;
   padding: 0;
@@ -481,7 +489,7 @@ input, textarea {
 
   .main-message {
     max-width: 70rem;
-    transform: translateY(4%);
+    transform: translateY(8%);
     padding: 20px;
   }
 
