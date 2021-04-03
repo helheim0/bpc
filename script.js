@@ -1,3 +1,5 @@
+//NAVIGATION
+
 function navSlide() {
     const burger = document.querySelector(".toggle-btn");
     const nav = document.querySelector(".ul-links");
