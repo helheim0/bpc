@@ -136,7 +136,6 @@ img {
 }
 
 .image.show{
-	display: block;
 	animation: show .5s ease;
 }
 
@@ -163,6 +162,10 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .pagination {
+    padding: 8px;
   }
 }
 
@@ -194,9 +197,25 @@ img {
 
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1600px) {
+  #referinte {
+    height: 100vh;
+  }
 
+  #referinte .container {
+    transform: translateY(10%);
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1900px) {
+  #referinte {
+    height: 100vh;
+  }
+
+  #referinte .container {
+    transform: translateY(10%);
+  }
 }
 
 
